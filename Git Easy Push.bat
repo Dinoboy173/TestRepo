@@ -16,4 +16,4 @@ git pull
 
 git push
 
-set /P commitMessage = "Enter commit message here: "
+goto :EOF
