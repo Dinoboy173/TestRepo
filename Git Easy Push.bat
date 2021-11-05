@@ -6,7 +6,11 @@ git add .
 
 git status
 
+:invalidCommitMessage
 set /P commitMessage = "Enter commit message here: "
+
+
+
 git commit -m commitMessage%!
 
 git pull
