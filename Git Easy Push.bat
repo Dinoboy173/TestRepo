@@ -11,7 +11,9 @@ set /P commitMessage = "Enter commit message here: "
 
 set invalidCommit = ""
 
-if commitMessage == invalidCommit goto invalidCommitMessage 
+if commitMessage == invalidCommit echo Commit Message Can't Be Empty
+
+set /P commitMessage = "Enter commit message here: "
 
 git commit -m commitMessage%!
 
