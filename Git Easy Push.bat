@@ -18,4 +18,4 @@ git push
 
 set /p commitMessage="Enter commit message here: "
 
-goto :EOF
+exit /b
