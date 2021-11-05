@@ -10,10 +10,12 @@ set /p commitMessage="Enter commit message here: "
 
 echo "%commitMessage%"
 
-git commit -m " "%commitMessage%" "
+git commit -m " %commitMessage% "
 
 git pull
 
 git push
+
+set /p commitMessage="Enter commit message here: "
 
 goto :EOF
