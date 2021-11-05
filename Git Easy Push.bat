@@ -8,8 +8,10 @@ git status
 
 set /P commitMessage = "Enter commit message here: "
 
-git commit -m commitMessage%!
+git commit -m ""%commitMessage%""
 
 git pull
 
 git push
+
+set /P commitMessage = "Enter commit message here: "
