@@ -16,6 +16,4 @@ git pull
 
 git push
 
-set /p commitMessage="Enter commit message here: "
-
 exit /b
